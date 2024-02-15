@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class = "para">On</p>
+    <button onclick="on()">Switch On</button>
+    <button onclick="off()">Switch Off</button>
+</body>
+<script>
+    function on(){
+        document.querySelector(".para").innerHTML = "On";
+    }
+    function off(){
+        document.querySelector(".para").innerHTML = "Off";
+    }
+</script>
+</html>
